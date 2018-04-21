@@ -1,0 +1,41 @@
+/* Tag Selector Ended */
+p{
+    background:#000000;
+    color: white;
+    text-align: left;
+}
+/* Tag Selector Ended */
+
+
+/* Id Selector Started */
+#para1 {
+    text-align: center;
+    background: white;
+    margin: 15px;
+    color: red;
+}
+/* Id Selector Ended */
+
+/* Class Selector Started*/
+.main {
+    background: black;
+    text-align: center;
+    color: red;
+}
+/* Class Selector Ended*/
+
+/* Nested Selector Started*/
+p.main {
+    background: white;
+    text-align: center;
+    color: green;
+}
+/* Nested Selector Ended*/
+
+/* Multiple Selector Started*/
+h1, h2,label,a {
+    text-align: center;
+    color: black !important;
+}
+/* Multiple Selector Ended*/
+

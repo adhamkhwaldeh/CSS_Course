@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <style>
+
+                .first , .first:hover{
+                    color: black;
+                    cursor: pointer;
+                }
+
+               
+                /* There is four state for link started*/
+                /*normal state*/
+                a:link{
+                    color:black;
+                    cursor: help;
+                }
+                a:visited{
+                    color: green;
+                }
+                /*mouse over*/
+                a:hover{
+                    color: orange;
+                }
+                /*selected*/
+                a:active{
+                    color: blue;
+                }
+                /* There is four state for link ended*/
+
+                /*mix*/
+                a:hover,a:active{
+                       color: yellow;
+                }
+                /*Mix*/
+            </style>
+    </head>
+
+    <body>
+
+        <!-- There is four state for link started-->
+        <div>
+            <a href="http//:www.google.com" class="first">google</a>
+            <br>
+            <a href="http//:www.facebook.com">facebook</a>
+            <br>
+            <a href="http//:www.Twitter.com">Twitter</a>
+            <br>
+            <a href="http//:www.yahoo.com">yahoo</a>
+        </div>
+
+        <!-- There is four state for link ended-->
+
+
+
+    </body>
+    
+</html>

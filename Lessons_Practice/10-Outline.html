@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+                <head>
+                        <style>
+                            .dotted {
+                                outline-style: dotted;
+                                padding: 5px;
+                                margin: 0px;
+                                border: 5px dotted red;
+                            }
+                            .dashed {outline-style: dashed;}
+                            .solid {outline-style: solid;}
+                            .double {outline-style: double;}
+                            .groove {outline-style: groove;}
+                            .ridge {outline-style: ridge;}
+                            .inset {outline-style: inset;}
+                            .outset {outline-style: outset;}
+
+                        .first {
+                            border: 1px solid black;
+                            outline-style: double;
+                            outline-color: green;
+                        }
+
+                        .second {
+                            border: 1px solid black;
+                            outline-style: solid;
+                            outline-color: red;
+                        }
+
+                        .third{
+                            border: 1px solid black;
+                            outline-style: outset;
+                            outline-color: yellow;
+                        }
+                        .forth{
+                            border: 1px solid yellow;
+                            outline-style: solid;
+                            outline-color: invert;
+                        }    
+
+                        </style>
+                </head>
+                
+                <body>
+                <!--
+                    Content - The content of the box, where text and images appear
+                    Padding - Clears an area around the content. The padding is transparent
+                    Border - A border that goes around the padding and content
+                    Margin - Clears an area outside the border. The margin is transparent
+                -->
+
+                <h2>The border-width Property</h2>
+                <p>This property specifies the width of the four borders:</p>
+
+                <p class="dotted">A dotted outline</p>
+                <p class="dashed">A dashed outline</p>
+                <p class="solid">A solid outline</p>
+                <p class="double">A double outline</p>
+                <p class="groove">A groove outline. The effect depends on the outline-color value.</p>
+                <p class="ridge">A ridge outline. The effect depends on the outline-color value.</p>
+                <p class="inset">An inset outline. The effect depends on the outline-color value.</p>
+                <p class="outset">An outset outline. The effect depends on the outline-color value.</p>
+
+                <div class="first">Some text.</div>
+                <div class="second">Some text.</div>
+
+                <div class="third">Some text.</div>
+                <div class="forth">Some text.</div>
+
+                <p><b>Note:</b> The "border-width" property does not work if it is used alone. 
+                Always specify the "border-style" property to set the borders first.</p>
+
+                </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Hello in Html Tutorial"/>
+        
+        <title>Page Title</title>
+        <link rel="icon" href="icon.png">
+
+        <style>
+        
+            /*There are four options*/
+                
+                /*list-style-type started*/
+                .circle{
+                    list-style-type: circle;
+                }
+
+                .square{
+                    list-style-type: square;
+                }
+                .upperroman{
+                    list-style-type: upper-roman;
+                }
+                .loweralpha{
+                    list-style-type: lower-alpha;
+                }
+                /*list-style-type ended*/
+
+                /*list-style-image started*/
+                .styleimage{
+                    list-style-position: inside;
+                    list-style-type: square;
+                    list-style-image:url('listimage.png');
+                }
+                .styleimageoutside{
+                    list-style-position: outside;
+                    list-style-type: square;
+                    list-style-image:url('listimage.png');
+                }
+                /*list-style-image started*/
+
+
+                /*list-style-position started*/
+                .positionoutside{
+                    list-style-position: outside
+                }
+                .positioninside{
+                    list-style-position: inside
+                }
+                /*list-style-position ended*/
+
+                /*inline list style started*/
+                .inlinestyle{
+                    list-style: square inside url('listimage.png');
+                }
+                /*inline list style ended*/
+
+
+            /*There are four options*/
+        
+        </style>
+
+    </head>
+
+    <body>
+
+        <div>
+            <h1>Unorder List circle</h1>
+            <ul class="circle"> <!-- unorder list-->
+                <li> List Item1 </li> <!-- List item-->
+                <li> List Item2 </li>
+                <li> List Item3 </li>
+                <li> List Item4 </li>
+                <li> List Item5 </li>
+            </ul>
+            <h1>Unorder List square</h1>
+            <ul class="square"> <!-- unorder list-->
+                <li> List Item1 </li> <!-- List item-->
+                <li> List Item2 </li>
+                <li> List Item3 </li>
+                <li> List Item4 </li>
+                <li> List Item5 </li>
+            </ul>
+
+            <h1>Order List upper roman</h1>
+            <ol class="upperroman"> <!-- order list   type="I" start="B"--> 
+			  <!-- 1 ,a ,A ,i, I --> <!-- reversed="reversed"-->
+                <li> List Item1 </li>
+                <li> List Item2 </li>
+                <li> List Item3 </li>
+                <li> List Item4 </li>
+                <li> List Item5 </li>
+            </ol>
+
+
+            <h1>Order List lower alpha</h1>
+            <ol class="loweralpha"> <!-- order list   type="I" start="B"--> 
+			  <!-- 1 ,a ,A ,i, I --> <!-- reversed="reversed"-->
+                <li> List Item1 </li>
+                <li> List Item2 </li>
+                <li> List Item3 </li>
+                <li> List Item4 </li>
+                <li> List Item5 </li>
+            </ol>
+
+            <h1>Unorder List style image </h1>
+            <ul class="styleimage"> <!-- unorder list-->
+                <li> List Item1 </li> <!-- List item-->
+                <li> List Item2 </li>
+                <li> List Item3 </li>
+                <li> List Item4 </li>
+                <li> List Item5 </li>
+            </ul>
+
+            <h1>Unorder List style image outisde</h1>
+            <ul class="styleimageoutside"> <!-- unorder list-->
+                <li> List Item1 </li> <!-- List item-->
+                <li> List Item2 </li>
+                <li> List Item3 </li>
+                <li> List Item4 </li>
+                <li> List Item5 </li>
+            </ul>
+
+
+        </div>
+
+    </body>
+    
+</html>
+
+
+
+
+
